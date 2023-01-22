@@ -1,0 +1,110 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="imgs" src="https://i.postimg.cc/BnDBY2N5/t1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img id="imgs" src="https://i.postimg.cc/W4GKjXZ2/h5.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img id="imgs" src="https://i.postimg.cc/zGm0BT83/h6.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="div1">
+    <button class="btn btn-dark" (click)="adddetail()">Add student details</button><br><br>
+    <button class="btn btn-dark" (click)="attend()">Add attendance</button><br><br>
+    <button class="btn btn-dark" (click)="mark()">Add marklist</button><br><br>
+    <button class="btn btn-dark" (click)="vattend()">View attendance</button><br><br>
+   <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#mark">
+  view marklist
+   </button>
+   <div class="modal fade" id="mark" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">enter details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="markform" >
+          <input type="text" placeholder="enter rollnumber" formControlName="roll" #roll><br><br>
+          <div *ngIf="this.markform.get('roll')?.touched&&this.markform.get('roll')?.errors" style="color:red">required</div>
+          <input type="text" placeholder="enter class" formControlName="sclass" #sclass><br><br>
+          <div *ngIf="this.markform.get('sclass')?.touched&&this.markform.get('sclass')?.errors" style="color:red">required</div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success" (click)="vmark()">submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- <button class="btn btn-dark" (click)="vmark()">View marklist</button><br><br><br><br> -->
+  </div><br><br><br><br>
+  <h2 id="h2"align="center"><I>OUR TEACHERS</I></h2><br>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="https://i.postimg.cc/ry7J18Lt/t2.jpg" id="img1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">rexa petter</h5>
+          <p class="card-text"> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://i.postimg.cc/8P57zvYR/t3.jpg" id="img2" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">rebecca</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://i.postimg.cc/7hPn66v5/t4.jpg"  id="img3" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">robin thomas</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://i.postimg.cc/Fs5JDzC3/t5.jpg" id="img4" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">steve petter</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card">
+          <img src="https://i.postimg.cc/yYLsWrRx/t6.jpg" id="img5"class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">nipin </h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://i.postimg.cc/MGRC0sny/t7.jpg" id="img6" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">jisma </h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+  </div><br><br><br>
+

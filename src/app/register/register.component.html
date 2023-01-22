@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Sign Up</h1>
+                    <h6>
+                        Register Yourself!!!
+                    </h6>
+             </div>
+             <form >
+             <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                    <input type="text" formControlName="fullname" class="form-control" id="exampleInputPassword1">
+                  
+                  <div *ngIf="this.signupForm.get('fullname')?.touched&&this.signupForm.get('fullname')?.errors" style="color:red">invalid fullname</div>
+                </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                    
+                    <input type="text" formControlName="mobile" class="form-control" id="exampleInputPassword1">
+                    <div *ngIf="this.signupForm.get('mobile')?.touched&&this.signupForm.get('mobile')?.errors" style="color:red">invalid mobile number</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email"  formControlName="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                  <div *ngIf="this.signupForm.get('email')?.touched&&this.signupForm.get('email')?.errors" style="color:red">invalid email</div><div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  
+                <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
+                <div *ngIf="this.signupForm.get('password')?.touched&&this.signupForm.get('password')?.errors" style="color:red">invalid password minlenth-8</div>
+            </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Type of user</label>
+                    <select formControlName="user" class="form-control">  
+                        <option>Teachers</option>  
+                        <option>Parents</option>  
+                          
+                    </select> 
+                    <div *ngIf="this.signupForm.get('user')?.touched&&this.signupForm.get('user')?.errors" style="color:red">invalid type</div>
+                  </div>
+                
+                <button type="submit" class="btn btn-success">Sign Up</button>
+             
+            </form>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+

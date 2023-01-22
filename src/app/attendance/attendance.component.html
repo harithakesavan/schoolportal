@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align:center">
+    <h1>mark attendance</h1>
+
+<form action="/action_page.php" [formGroup]="attendform">
+    <label for="adate">select class</label>
+    <input type="text" class="form-control" id="class" style="margin-left:580px" #aclass formControlName="aclass"><br>
+  select date<br>
+  <input type="date" id="adate" name="birthday" style="margin-left:10px" #sdate formControlName="sdate"><br><br>
+ <button class="btn btn-primary" (click)="attend()">submit</button>
+</form>
+</div>
+</body>
+</html>

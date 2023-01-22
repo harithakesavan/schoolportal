@@ -1,0 +1,84 @@
+<div class="container">
+    <br><br>
+    <h2 class="text-center">Add marklist</h2><br><br>
+    <form [formGroup]="addmarkform" class="row g-3" (ngSubmit)="addmark()">
+        <div class="col-md-6">
+            <label for="validationServer01" class="form-label">student name</label>
+            <input type="text" name="name" formControlName="name" class="form-control" id="validationServer01" requires>
+
+        </div>
+        <div class="col-md-6">
+            <label for="validationServer02" class="form-label">Roll number</label>
+            <input type="text" name="roll" formControlName="roll" class="form-control" id="validationServer02" requires>
+            
+        </div>
+        
+        <div class="mb-3">
+            <label for="" class="form-label">class</label>
+            <select formControlName="class" class="form-control">  
+                <option>1-A</option>  
+                <option>1-B</option>  
+                <option>1-C</option>  
+                <option>1-D</option>  
+                <option>2-A</option>  
+                <option>2-B</option>  
+                <option>2-C</option>  
+                <option>2-D</option>  
+                <option>3-A</option>  
+                <option>3-B</option>  
+                <option>3-C</option>  
+                <option>3-D</option>  
+                <option>4-A</option>  
+                <option>4-B</option>  
+                <option>4-C</option>  
+                <option>4-D</option>  
+                  
+            </select> 
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">subject1</label>
+                <input type="text" name="sub1" formControlName="sub1" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">mark</label>
+                <input type="number" name="mark1" formControlName="mark1" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">subject2</label>
+                <input type="text" name="sub2" formControlName="sub2" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">mark</label>
+                <input type="number" name="mark2" formControlName="mark2" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">subject3</label>
+                <input type="text" name="sub3" formControlName="sub3" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">mark</label>
+                <input type="number" name="mark3" formControlName="mark3" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">subject4</label>
+                <input type="text" name="sub4" formControlName="sub4" class="form-control" id="validationServer02" requires>
+                
+            </div>
+            <div class="col-md-6">
+                <label for="validationServer02" class="form-label">mark</label>
+                <input type="number" name="mark4" formControlName="mark4" class="form-control" id="validationServer02" requires>
+                
+            </div>
+<div class="col-12">
+    <button class="btn btn-primary" type="submit">submit form</button>
+</div>
+    </form>
+</div>
+
+

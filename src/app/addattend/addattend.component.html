@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="container">
+            <h2>class:{{aclass}}</h2>
+            <h2>date:{{sdate}}</h2>
+            <div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>NAME</th>
+                       
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </tr>
+                    </thead>
+                    <div *ngFor="let i of student">
+                    <tbody>
+                      <tr>
+                        <td>{{i.name}}</td>
+                        <td><select name="" id="att">
+                            <option value="present">present</option>
+                            <option value="absent">absent</option>
+                        </select></td>
+                        
+                        
+                        
+                        
+                      </tr>
+                      <!-- <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                        
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr> -->
+                   
+                    </tbody>
+                </div>
+                    <!-- footer 
+                    <tfoot>
+                      <tr>
+                        <td colspan=3>Maximum Marks: </td>
+                        <td colspan=3>Marks Obtained: </td>
+                        <td colspan=2>Grade: </td>
+                      </tr>
+                    </tfoot> footer ends-->
+                  </table>
+                  <BUTTON class="btn btn-success" style="margin-left:500px">submit</BUTTON><br><br><br>
+                  <br>
+                  <br>
+                  <br><br>
+           
+        </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    
+</body>
+</html>

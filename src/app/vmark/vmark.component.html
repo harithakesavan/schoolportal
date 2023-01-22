@@ -1,0 +1,67 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <title>MARKS SHEET USING HTML TABLES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="html, css, html tables, table">
+    <meta name="Description" content="html table">
+    <!-- add icon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <div class="container">
+        <h5>NAME:{{student.name}}</h5>
+        <H5>ROLL NO:{{roll}}</H5>
+        <h5>CLASS:{{sclass}}</h5>
+      <h2>MARKLIST</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>subjects</th>
+            <th>obtained mark</th>
+            <th>total mark</th>
+            
+          <tr>  
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{student.sub1}}</td>
+            <td>{{student.mark1}}</td>
+            <td>100</td>
+            
+            
+          </tr>
+          <tr>
+            <td>{{student.sub2}}</td>
+            <td>{{student.mark2}}</td>
+            <td>100</td>
+            
+            
+          </tr>
+          <tr>
+            <td>{{student.sub3}}</td>
+            <td>{{student.mark3}}</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>{{student.sub4}}</td>
+            <td>{{student.mark4}}</td>
+            <td>100</td>
+          </tr>
+         
+        </tbody>
+        <!-- footer 
+        <tfoot>
+          <tr>
+            <td colspan=3>Maximum Marks: </td>
+            <td colspan=3>Marks Obtained: </td>
+            <td colspan=2>Grade: </td>
+          </tr>
+        </tfoot> footer ends-->
+      </table>
+    </div>
+  </body>
+</html>

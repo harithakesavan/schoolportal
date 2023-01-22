@@ -1,0 +1,51 @@
+.carousel {
+    width: 700px;
+    
+    margin-top: 50px;
+
+}
+.btn{
+    width:300px
+}
+.div1{
+    margin-top: -800px;
+    margin-left: 900px;
+}
+#h2{
+    background-color: black;
+    color: white;
+}
+#img1{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#img2{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#img3{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#img4{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#img5{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+#img6{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+.card{
+    width: 200px;
+    margin-left: 100px;
+}

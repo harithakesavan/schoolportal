@@ -1,0 +1,30 @@
+.container{
+    background-image: url("https://i.postimg.cc/hPdkJ0s1/lo.jpg");
+    width: 100%;
+   background-size: cover;
+   height: 700px;
+}
+
+
+
+
+
+.card{
+    margin-top: 40px;
+    border: none;
+    width: 500px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+   color: beige;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(83, 80, 80);
+    background: linear-gradient(90deg,rgb(23, 27, 31)0%,rgb(130, 128, 133)100%);
+    
+    }
+    .card h1,h6{
+    color: white;
+    }
+    
