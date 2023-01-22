@@ -1,0 +1,237 @@
+{
+  "signupteacher": [
+    {
+      "fullname": "haritha p",
+      "email": "haritha@gmail.com",
+      "password": "123456",
+      "mobile": 9845789652,
+      "id": 1
+    },
+    {
+      "fullname": "harithakesavan",
+      "email": "haritha@gmail.com",
+      "password": "123456",
+      "mobile": 9846987485,
+      "id": 2
+    },
+    {
+      "fullname": "arya",
+      "email": "haritkesavan58@gmail.com",
+      "password": "789456",
+      "mobile": 9846987485,
+      "id": 3
+    },
+    {
+      "fullname": "vijesh",
+      "email": "vijesh@gmail.com",
+      "password": "123456",
+      "mobile": 9846384049,
+      "id": 4
+    },
+    {
+      "fullname": "varsha",
+      "mobile": "9845758596",
+      "email": "varsha@gmail.com",
+      "password": "1234567894",
+      "user": "Teachers",
+      "id": 5
+    },
+    {
+      "fullname": "achu",
+      "mobile": "9845788596",
+      "email": "aswathy23@gmail.com",
+      "password": "1234567894",
+      "user": "Teachers",
+      "id": 6
+    },
+    {
+      "fullname": "sarath",
+      "mobile": "9845748596",
+      "email": "sarath@gmail.com",
+      "password": "1234567894",
+      "user": "Teachers",
+      "id": 7
+    },
+    {
+      "fullname": "ALIYA",
+      "mobile": "9846988574",
+      "email": "aliya@gmail.com",
+      "password": "1234567891",
+      "user": "Teachers",
+      "id": 8
+    }
+  ],
+  "signupparent": [
+    {
+      "fullname": "kesavan",
+      "mobile": "9845748596",
+      "email": "kesav@gmail.com",
+      "password": "1234567894",
+      "user": "Parents",
+      "id": 1
+    },
+    {
+      "fullname": "arun",
+      "mobile": "9845748596",
+      "email": "arun@gmail.com",
+      "password": "1234567894",
+      "user": "Parents",
+      "id": 2
+    },
+    {
+      "fullname": "akshay",
+      "mobile": "9845748596",
+      "email": "akshay@gmail.com",
+      "password": "1234567894",
+      "user": "Parents",
+      "id": 3
+    },
+    {
+      "fullname": "kesavan",
+      "mobile": "9845789685",
+      "email": "kesav@gmail.com",
+      "password": "1234567891",
+      "user": "Parents",
+      "id": 4
+    }
+  ],
+  "mark": [
+    {
+      "name": "haritha",
+      "roll": 1,
+      "id": 1
+    },
+    {
+      "name": "rohini",
+      "roll": "12",
+      "class": "1-A",
+      "sub1": "maths",
+      "mark1": 90,
+      "sub2": "science",
+      "mark2": 98,
+      "sub3": "english",
+      "mark3": 87,
+      "sub4": "Gk",
+      "mark4": 90,
+      "id": 2
+    },
+    {
+      "name": "aswathy",
+      "roll": "18",
+      "class": "1-A",
+      "sub1": "maths",
+      "mark1": 90,
+      "sub2": "science",
+      "mark2": 98,
+      "sub3": "english",
+      "mark3": 87,
+      "sub4": "Gk",
+      "mark4": 90,
+      "id": 3
+    },
+    {
+      "name": "nithya",
+      "roll": "16",
+      "class": "1-B",
+      "sub1": "maths",
+      "mark1": 58,
+      "sub2": "science",
+      "mark2": 58,
+      "sub3": "english",
+      "mark3": 70,
+      "sub4": "Gk",
+      "mark4": 90,
+      "id": 4
+    },
+    {
+      "name": "aswathy",
+      "roll": "12",
+      "class": "1-B",
+      "sub1": "maths",
+      "mark1": 200,
+      "sub2": "science",
+      "mark2": 300,
+      "sub3": "english",
+      "mark3": 100,
+      "sub4": "Gk",
+      "mark4": 300,
+      "id": 5
+    },
+    {
+      "name": "vijesh",
+      "roll": "1",
+      "class": "3-C",
+      "sub1": "maths",
+      "mark1": 98,
+      "sub2": "science",
+      "mark2": 98,
+      "sub3": "english",
+      "mark3": 97,
+      "sub4": "Gk",
+      "mark4": 98,
+      "id": 6
+    },
+    {
+      "name": "Leena",
+      "roll": "2",
+      "class": "2-D",
+      "sub1": "maths",
+      "mark1": 69,
+      "sub2": "science",
+      "mark2": 78,
+      "sub3": "english",
+      "mark3": 90,
+      "sub4": "Gk",
+      "mark4": 98,
+      "id": 7
+    },
+    {
+      "name": "hina",
+      "roll": "1",
+      "class": "4-A",
+      "sub1": "maths",
+      "mark1": 98,
+      "sub2": "science",
+      "mark2": 100,
+      "sub3": "english",
+      "mark3": 100,
+      "sub4": "Gk",
+      "mark4": 100,
+      "id": 8
+    },
+    {
+      "name": "",
+      "sroll": "",
+      "sclass": "",
+      "id": 9
+    }
+  ],
+  "students": [
+    {
+      "name": "haritha",
+      "roll": 1,
+      "id": 1
+    },
+    {
+      "name": "s",
+      "sroll": "1",
+      "sclass": "1",
+      "id": 2
+    },
+    {
+      "name": "alexa",
+      "sroll": "2",
+      "sclass": "1-A",
+      "id": 3
+    },
+    {
+      "name": "roopa",
+      "sroll": "20",
+      "sclass": "1-D",
+      "id": 4
+    }
+  ],
+  "attendance": [
+    {}
+  ]
+}
